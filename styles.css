@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium';
+}
+
+header {
+    position: fixed;
+    background-color: grey;
+    color: white;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    width: 100%;
+    top: 0px;
+}
+
+.menutab {
+    padding: 15px;
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin: 65px 15px;
+    border-radius: 10px;
+}
+
+.menutab:hover {
+    background-color: rgb(122, 197, 223);
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+#pagebanner {
+    background-color: blue;
+    padding: 80px;
+    margin: 100px 0px;
+}
+
+.banneritem {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 22% 22% 22%;
+    grid-template-rows: max-content max-content max-content;
+    justify-content: center;
+}
+
+div p {
+    color: black;
+    padding: 20px 0px;
+}
+
+div h3 {
+    color: white;
+    font-size: 34px;
+    background-color: blueviolet;
+    margin-bottom: 20px;
+    padding: 8px 0px;
+}
+
+.navitem {
+    padding: 0px 20px;
+    text-align: center;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 50% 50% 50% 50% 50%;
+    grid-template-rows: max-content max-content max-content max-content max-content;
+    justify-content: center;
+}
+
+footer {
+    background-color: darkblue;
+    margin-top: 100px;
+    color: white;
+    position: sticky;
+    top: 100%;
+}
+
+.footerdiv {
+    display: grid;
+    grid-template-columns: 20% 20%;
+    grid-template-rows: max-content max-content;
+    justify-content: right;
+}
+
+.footersect {
+    padding: 15px;
+}
+
+body {
+    min-height: 96vh;
+}
